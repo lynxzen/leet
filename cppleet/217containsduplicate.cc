@@ -1,5 +1,5 @@
 class Solution {
-pblic:
+public:
     bool containsDuplicate(vector<int>& nums) {
         unordered_map<int, int> table;
         for (int x : nums) {                    
